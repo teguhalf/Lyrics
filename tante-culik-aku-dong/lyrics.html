@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>SOUND KERAMAT</title>
+  <link rel="icon" href="wave.gif" type="image/gif">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="audio" src="tantee.mp3"></audio>
+
+  <div class="lyrics-container">
+    <div class="line">SUDAH TERBIASA TERJADI TANTE 😎🤙</div>
+    <div class="line">TEMAN DATANG KALO LAGI BUTUH SAJA 🥂</div>
+    <div class="line">COBA KALO LAGI SUSAH ✌️</div>
+    <div class="line">MEREKA SEMUA MENGHILANG 😭</div>
+    <div class="line">TANTEE 🫶🏻😭❤️‍🩹</div>
+    <div class="line">TANTEE 🎧💃🕺</div>
+  </div>
+
+  <script>
+    window.addEventListener("click", () => {
+      const audio = document.getElementById("audio");
+      if (audio.paused) {
+        audio.play();
+      }
+    });
+  </script>
+</body>
+</html>
